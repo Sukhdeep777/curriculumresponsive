@@ -21,7 +21,7 @@ body, h1, h2, h3, h4, p, div, ul, li, span{
 
 
 
-/* MAIN SECTION -----------*/
+/* HEADER SECTION -----------*/
 
 .profile__portfolio {
     background-color: var(--second-soft-color);
@@ -33,11 +33,22 @@ body, h1, h2, h3, h4, p, div, ul, li, span{
     margin-bottom: 40px;
 }
 
-.profile--photo img {
+.profile--photo{
+    position: relative;
+}
+
+.profile--photo_img1 img {
     width: 160px;
     border-radius: 50%;
     margin-top: 80px;
     margin-bottom: 30px;
+}
+
+.profile--photo_img2 img {
+    width: 100px;
+    position: absolute;
+    top: 20%;
+    left: 60%;
 }
 
 .profile--contact {
@@ -84,7 +95,7 @@ body, h1, h2, h3, h4, p, div, ul, li, span{
     letter-spacing: 2px;
 }
 
-/* PROFILE INFO ------------ */
+/* PROFILE INFO (MAIN)------------ */
 
 .profile__info {
     margin:0 20px ;
@@ -231,7 +242,7 @@ address{
 
 @media screen and (min-width: 768px) {
 
-    .profile--photo img{
+    .profile--photo_img1 img{
         width: 200px;
     }
 
@@ -306,9 +317,15 @@ address{
         height: 100%;
     }
 
-    .profile--photo  img{
+    .profile--photo_img1 img{
         width: 350px;
         margin: 0;
+    }
+
+    .profile--photo_img2 img{
+        width: 152px;
+        top: 65%;
+        left: 70%;
     }
 
     .profile--contact {
