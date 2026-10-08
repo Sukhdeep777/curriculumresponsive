@@ -9,14 +9,18 @@ body {
     --third-color: #0699A6;
     --important-color: #000;
     --white-text: #fff;
-    --h3-font: Arial Narrow;
-    --title-font: serif;
+    --h3-font: PT Sans Narrow;
+    --title-font: Playfair Display;
 }
 
 body, h1, h2, h3, h4, p, div, ul, li, span{
     margin: 0;
     padding: 0;
     list-style: none;
+}
+
+h1, h2, h3, h4 {
+    font-family: Playfair Display;
 }
 
 
