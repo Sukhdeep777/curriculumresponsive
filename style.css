@@ -25,10 +25,10 @@ body {
         --title-font: Playfair Display;
         background-color: var(--bg-color);
     }   
-    
-    h2,h4,p{
+
+    .aside_skills--item, .info-flex h4{
         color: var(--white-text);
-    } 
+    }
 }
 
 body, h1, h2, h3, h4, p, div, ul, li, span{
@@ -39,7 +39,6 @@ body, h1, h2, h3, h4, p, div, ul, li, span{
 
 h1, h2, h3, h4 {
     font-family: Playfair Display;
-
 }
 
 
@@ -128,6 +127,7 @@ h1, h2, h3, h4 {
     font-size: 32px;
     font-weight: 900;
     font-family: var(--title-font);
+    color: var(--important-color);
 }
 
 .about__me p, .experience--item p {
@@ -180,6 +180,7 @@ h1, h2, h3, h4 {
     margin-bottom: 20px;
     margin-top: 8px;
     font-weight: 400;
+    
 }
 
 .education__info h3{
