@@ -210,7 +210,7 @@ h1, h2, h3, h4 {
 
 .footer__page{
     width: 100%;
-    clip-path: polygon(0 18%, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 8%, 100% 0, 100% 100%, 0% 100%);
     background-color: var(--second-soft-color);
     display: flex;
     flex-direction: column;
