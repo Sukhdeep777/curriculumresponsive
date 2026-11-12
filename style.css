@@ -246,7 +246,7 @@ address{
     display: flex;
     width: 242.96px;
     gap: 46.92px;
-    margin-bottom: 111.18px;
+    margin-bottom: 92.18px;
 }
 
 /* MEDIA QUERIES */
@@ -311,6 +311,10 @@ address{
 
     address p{
         font-size: 30px;
+    }
+
+    .icons-img{
+        margin-bottom: 112.18px;
     }
 }
 
@@ -444,5 +448,9 @@ address{
     address p:last-child{
         padding-left: 10px;
     }
+    
 
+    .icons-img{
+        margin-bottom: 111.18px;
+    }
 }
