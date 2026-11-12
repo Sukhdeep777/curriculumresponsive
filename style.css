@@ -13,6 +13,20 @@ body {
     --title-font: Playfair Display;
 }
 
+@media (prefers-color-scheme: dark){
+    body {
+        --bg-color: #0E1B1D;
+        --second-soft-color: #010F11; 
+        --second-color: #9E8C6C;
+        --third-color: #0699A6;
+        --important-color: #fff;
+        --white-text: #fff;
+        --h3-font: PT Sans Narrow;
+        --title-font: Playfair Display;
+        background-color: var(--bg-color);
+    }    
+}
+
 body, h1, h2, h3, h4, p, div, ul, li, span{
     margin: 0;
     padding: 0;
@@ -21,6 +35,7 @@ body, h1, h2, h3, h4, p, div, ul, li, span{
 
 h1, h2, h3, h4 {
     font-family: Playfair Display;
+
 }
 
 
