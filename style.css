@@ -210,7 +210,7 @@ h1, h2, h3, h4 {
 
 .footer__page{
     width: 100%;
-    clip-path: polygon(0 17%, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 18%, 100% 0, 100% 100%, 0% 100%);
     background-color: var(--second-soft-color);
     display: flex;
     flex-direction: column;
@@ -240,6 +240,13 @@ address p{
 address{
     margin-top: 40px;
     margin-bottom: 45.68px;
+}
+
+.icons-img{
+    display: flex;
+    width: 242.96px;
+    gap: 46.92px;
+    margin-bottom: 111.18px;
 }
 
 /* MEDIA QUERIES */
@@ -299,6 +306,7 @@ address{
 
     .footer__page h2{
         font-size: 56px;
+        margin-top: 120px;
     }
 
     address p{
@@ -406,8 +414,13 @@ address{
         justify-content: space-between;
     }
 
+    .footer__page{
+        clip-path: polygon(0 28%, 100% 0, 100% 100%, 0% 100%);
+    }
+
     .footer__page h2{
         font-size: 66px;
+        margin-top: 177px;
     }
 
     address{
